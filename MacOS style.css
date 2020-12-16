@@ -1,0 +1,200 @@
+@font-face /*Nouvelle police d'écriture*/
+{
+    font-family: 'advent_prothin';
+    src: url('fonts/adventpro-thin-webfont.woff2') format('woff2'),
+         url('fonts/adventpro-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p
+{
+	font-size: 1.2em;
+	font-family: 'advent_prothin', "Arial Black", Arial, Impact;
+	font-weight: bold;
+	color: rgba(230,230,230,0.9);
+	text-align: justify;
+}
+
+ol
+{
+	font-size: 1.1em;
+	font-family: 'advent_prothin', "Arial Black", Arial, Impact;
+	font-weight: bold;
+	color: rgba(230,230,230,0.9);
+}
+h1
+{
+	font-size: 3em;
+	font-family: 'advent_prothin', "Arial Black", Arial, Impact;
+	text-align: center;	
+}
+
+h2
+{
+	font-size: 1.9em;
+	font-family: 'advent_prothin', "Arial Black", Arial, Impact;
+}
+
+figcaption
+{
+	font-size: 1em;
+	font-family: 'advent_prothin', "Arial Black", Arial, Impact;
+	color: rgb(230,230,230);
+}
+
+body
+{
+	background-color: rgb(58,64,71);
+}
+
+.pomme
+{
+	background: url("images/apple.jpg") fixed center ;
+
+}
+
+
+.flottant
+{
+	float: middle ;
+}
+
+header
+{
+	border: 7px grey double;
+	border-radius: 40px;
+	background: url("images/applepark.jpg") fixed center ;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: 50%;
+	
+}
+
+aside
+{
+	height: 10%;
+	width: 10em;
+	padding: 10px;
+	border: 5px grey dashed;
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 42px;
+}
+
+main
+{
+	margin-right: 200px;
+	margin-left: 20px;
+	padding: 12px;
+	border-top: 5px grey solid;
+	border-bottom: 5px grey solid;
+
+}
+
+nav #menu
+{
+	width: 100%;
+	margin: 2em 0 0 0;
+	padding: 10px;
+	background-color: rgb(104,114,105);
+	border : 2px dashed black;
+	list-style-type: none;
+}
+
+nav
+{
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+}
+
+.line
+{
+	display: inline;
+	padding: 1px 6.1%;
+	border-right: 2px dashed black;
+}
+
+nav #menu a
+{
+	color: black;
+	text-decoration: none;
+	padding: 0 0.5em;
+	font-size: 0.8em;
+	font-family: 'advent_prothin', "Arial Black", Arial, Impact;
+	font-weight: bold;
+
+}
+
+footer
+{
+	margin-left: 20%;
+
+}
+
+#separer
+{
+	display: flex;
+}
+
+a
+{
+	color: rgb(0,132,146); /* Les liens seront en rouge au lieu de bleu */
+	font-size:1.2em;
+}
+
+a:hover
+{
+	background-color: rgb(155,100,200); 
+	font-size:1.4em;
+	opacity: 1;
+}
+
+.logo a:hover
+{
+	font-size: 1em;
+	background-color: (58,64,71);
+}
+
+table
+{
+	font-size: 1.2em;
+	font-family: 'advent_prothin', "Arial Black", Arial, Impact;
+	font-weight: bold;
+	color: rgba(230,230,230,0.9);
+	text-align: center;
+	margin-left: 6%;
+	border: 5px double;
+}
+
+a.top
+
+{
+	background-color: rgb(58,64,71);
+	font-size: 1em;
+}
+
+div.haut
+{
+	text-align: right;
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	bottom: 0px;
+}
+
+.milieu
+{
+	text-align: center;
+}
+
+.caption
+{
+	display: flex;
+
+}
+
+img.rayon
+{
+	border-radius: 20%;
+}
